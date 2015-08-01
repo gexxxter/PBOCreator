@@ -5,7 +5,7 @@
 
 	<groupId>org.1st</groupId>
 	<artifactId>pboCreator</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1-alpha</version>
 	<packaging>jar</packaging>
 
 	<name>PboCreator</name>

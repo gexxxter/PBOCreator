@@ -12,15 +12,12 @@ public class PboCreatorService {
 		if (!file.isDirectory()) {
 			throw new Exception("Internal error, better start crying!");
 		}
-
 		File[] listFiles = file.listFiles();
 		if (listFiles.length != 1) {
 			throw new Exception(
 					"Please zip the parent folder not the subfolders");
 		}
-
 		return createPbo(listFiles);
-
 	}
 
 	private static File createPbo(File[] listFiles) throws IOException,

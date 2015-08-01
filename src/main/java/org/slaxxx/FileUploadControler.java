@@ -43,7 +43,6 @@ public class FileUploadControler {
 		} catch (Exception ex) {
 			return ex.getMessage();
 		}
-
 		return "File uploaded successful";
 	}
 
